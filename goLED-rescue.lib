@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# S_CON_M-myParts
+#
+DEF S_CON_M-myParts U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "S_CON_M-myParts" 0 250 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+S -100 200 150 -200 0 1 0 N
+X DIN ~ -200 -50 100 R 50 50 1 1 I
+X GND ~ -200 50 100 R 50 50 1 1 I
+X VIN ~ -200 150 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
